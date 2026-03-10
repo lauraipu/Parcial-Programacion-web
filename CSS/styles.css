@@ -1,0 +1,34 @@
+.dark {
+    background: black;
+    color: white;
+}
+
+/*nav */
+.navbar{
+    background: rgba(175, 106, 74, 0.6)4999; 
+
+}
+
+
+/*CARDS */
+
+.card {
+    
+    width: 100px ;       
+    height: 50px ;       
+    object-fit: cover;   
+    border: 4px solid #976455;   
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    margin-top: 2%;
+ margin-bottom: 2%;
+}
+.card.servicio2{
+    flex-direction: column-izq;
+}
+
+div.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
